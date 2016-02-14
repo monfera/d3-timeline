@@ -8,10 +8,10 @@
   "license": "BSD-3-Clause",
   "main": "build/d3-timeline.js",
   "jsnext:main": "index",
-  "homepage": "https://github.com/{USERNAME}/d3-timeline",
+  "homepage": "https://github.com/monfera/d3-timeline",
   "repository": {
     "type": "git",
-    "url": "https://github.com/{USERNAME}/d3-timeline.git"
+    "url": "https://github.com/monfera/d3-timeline.git"
   },
   "scripts": {
     "pretest": "mkdir -p build && node -e 'process.stdout.write(\"var version = \\\"\" + require(\"./package.json\").version + \"\\\"; export * from \\\"../index\\\"; export {version};\");' > build/bundle.js && rollup -f umd -n d3_timeline -o build/d3-timeline.js -- build/bundle.js",
