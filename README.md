@@ -1,10 +1,10 @@
 # d3-timeline
 
-YOUR DESCRIPTION HERE. Replace all instances of `timeline` in this file with the name of your new plugin.
+A minimalistic example for a cloned and lightly personalized D3 4.0 plugin.
 
 ## Installing
 
-If you use NPM, `npm install d3-timeline`. Otherwise, download the [latest release](https://github.com/d3/d3-timeline/releases/latest).
+If you use NPM, `npm install https://github.com/monfera/d3-timeline`.
 
 ## API Reference
 
